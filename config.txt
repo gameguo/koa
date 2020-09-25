@@ -1,0 +1,13 @@
+npm install 7
+npm install koa --save
+npm install koa-router --save
+npm install koa-bodyparser --save
+npm install koa-static --save
+npm install koa-csrf --save
+npm install koa-session --save
+npm install nodemon --save
+npm install mongoose --save
+
+接口测试工具 postman
+npmjs.com
+gravatar 全球公共头像 email
