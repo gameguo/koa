@@ -1,5 +1,5 @@
 const Koa = require('koa')
-const router = require('koa-router')
+const router = require('koa-router')()
 const bodypaser = require('koa-bodyparser')
 const static = require('koa-static')
 const session = require('koa-session')
