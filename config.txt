@@ -1,12 +1,21 @@
 npm install 7
 npm install koa --save
 npm install koa-router --save
-npm install koa-bodyparser --save
+
 npm install koa-static --save
 npm install koa-csrf --save
 npm install koa-session --save
+
+
+npm install koa-bodyparser --save   // koa-bodyparser和koa-body不能同时使用 会post一直请求不到接口
+npm install koa-body --save // koa上传文件
+
 npm install nodemon --save
+//保存自动重启功能 npm run server
+
 npm install mongoose --save
+
+npm install koa-helmet --save //安全防护中间件
 
 接口测试工具 postman
 npmjs.com
